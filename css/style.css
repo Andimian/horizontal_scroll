@@ -54,6 +54,7 @@ section {
     height: 100%;
     padding: 75px 0 0 0;
     margin: 0;
+    width: 100vw;
 }
 
 #section-section1 {
@@ -200,3 +201,33 @@ section {
        object-fit: cover;
 
    }
+
+    .title {
+        color: #fff;
+        font-size: 5rem;
+        text-align: center;
+        padding-top: 4rem;
+        background: none;
+    }
+
+    .gallery {
+        width: 90vw;
+        height: 60vh;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pic-wrap {
+        width: 25%;
+
+    }
+
+    .pic {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .menu span {
+        color: #fff;
+    }
