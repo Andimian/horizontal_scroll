@@ -231,3 +231,13 @@ section {
     .menu span {
         color: #fff;
     }
+
+    .menu ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu {
+        width: 30%;
+        margin: auto;
+    }
