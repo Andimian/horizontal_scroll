@@ -138,8 +138,8 @@
     //Constants
     var LEFT = "left",
         RIGHT = "right",
-        UP = "down",
-        DOWN = "up",
+        UP = "up",
+        DOWN = "down",
         IN = "in",
         OUT = "out",
 
