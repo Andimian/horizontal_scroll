@@ -241,3 +241,40 @@ section {
         width: 30%;
         margin: auto;
     }
+
+    .scroll-accent {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        margin-right: 82px;
+        z-index: 10000;
+      }
+      
+    .scroll-accent img {
+        display: block;
+        width: 26px;
+      }
+      
+    .scroll {
+        animation-name: fadeOutDown;
+        animation-duration: 1s;
+        animation-fill-mode: backwards;
+        animation-iteration-count: infinite;
+        
+    }
+
+    @keyframes fadeOutDown {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+          transform: translate3d(0, 100%, 0);
+        }
+      }
+      
+      .fadeOutDown {
+        animation-name: fadeOutDown;
+      }
